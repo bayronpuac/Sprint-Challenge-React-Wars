@@ -1,5 +1,4 @@
 
-
 import React from "react";
 import styled from "styled-components";
 
@@ -14,7 +13,7 @@ const Card = styled.div`
   margin: 10px; 
 `;
 const NASAImg = styled.img`
-  width: 400px;
+  width: 450px;
   height: 250px;
   object-fit: scale;
   flex-shrink: 2;
@@ -22,7 +21,7 @@ const NASAImg = styled.img`
 const StarWarsCards = props => {
   return (
     <Card >
-      <NASAImg alt="random Cosmos" src={`https://source.unsplash.com/random`} />
+      <NASAImg alt="Random Picture" src={`https://source.unsplash.com/random`} />
       <div>
         <h2>{props.name}</h2> 
         <p>{props.birth}</p>
